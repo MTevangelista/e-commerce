@@ -1,10 +1,14 @@
 import React from 'react'
 
+import PageHeader from '../../components/PageHeader'
+
 import './styles.css'
 
 function Main() {
     return (
-        <h1>Main Page</h1>
+        <div>
+            <PageHeader title="Third Piece" />
+        </div>
     )
 }
 
