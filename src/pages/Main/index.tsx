@@ -1,13 +1,13 @@
 import React from 'react'
 
-import PageHeader from '../../components/PageHeader'
+import NavigationBar from '../../components/NavigationBar'
 
 import './styles.css'
 
 function Main() {
     return (
         <div>
-            <PageHeader title="Third Piece" />
+            <NavigationBar title="Third Piece" />
         </div>
     )
 }

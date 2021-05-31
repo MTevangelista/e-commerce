@@ -1,15 +1,27 @@
-.top-bag-container {
+body {
+    background: #e5e5e5;
+} 
+
+.navbar ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2.5rem 2rem 2.5rem 2rem;
 }
 
-.top-bag-container p {
+.navbar li {
+    list-style: none;
+}
+
+.navbar p {
     font-family: 'Abhaya Libre', serif;
     font-style: normal;
     font-size: 1.5rem;
     line-height: 1.75rem;
     text-align: center;
     letter-spacing: 0.2rem;
+}
+
+.header {
+    display: flex;
 }
