@@ -1,0 +1,51 @@
+body {
+    background-color: #000;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem 0rem 2.5rem 0rem;
+    width: 100vw;
+    height: 100vh;
+}
+
+p {
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+}
+
+.top-text {
+    font-size: 1.125rem;
+    line-height: 1.4rem;
+    letter-spacing: 8%;
+}
+
+.bottom-text {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+}
+
+.instagram-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0rem 0rem 0rem;
+    transition: 2s;
+}
+
+.instagram-container a {
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    text-decoration: none;
+    margin: 0rem 0rem 0rem 0.5rem;
+}
+
+.instagram-container:hover {
+    opacity: 0.4;
+}
