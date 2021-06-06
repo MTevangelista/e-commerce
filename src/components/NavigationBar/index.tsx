@@ -1,16 +1,18 @@
 import React from "react"
 import { Link } from "react-router-dom"
 
+import PageHeader from '../../components/PageHeader'
+
 import menuIcon from "../../assets/images/menu-icon.svg"
 import bagIcon from "../../assets/images/bag-icon.svg"
 
 import './styles.css'
 
-interface PageHeaderProps {
+interface NavigationBarProps {
     title: string
 }
 
-const PageHeader: React.FC<PageHeaderProps> = (props) => {
+const NavigationBar: React.FC<NavigationBarProps> = (props) => {
     return (
         <div>
             <nav className="navbar">
@@ -30,14 +32,9 @@ const PageHeader: React.FC<PageHeaderProps> = (props) => {
                     </li>
                 </ul>
             </nav>
-            <header className="header">
-                <div>etsdtet</div>
-                <div>etsdtet</div>
-                <div>etsdtet</div>
-                <div>etsdtet</div>
-            </header>
+            <PageHeader />
         </div>
     )
 }  
 
-export default PageHeader
+export default NavigationBar
